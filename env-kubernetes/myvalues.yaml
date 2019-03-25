@@ -1,13 +1,3 @@
-heapster:
-  image:
-    repository: reg.lifesense.com/google_containers/heapster
-    tag: v1.5.3
-  resizer:
-    enabled: true
-    image:
-      repository: reg.lifesense.com/google_containers/addon-resizer
-      tag: 1.8.1
-
 JXBasicAuth: admin:$apr1$a/HdTrV7$XYCGJWF9PdVwVVTvjMyaU/
 extensions:
   enabled: true
@@ -723,7 +713,7 @@ chartmuseumServiceLink:
   externalName: ""
 
 monocular:
-  enabled: true
+  enabled: false
   ingress:
     enabled: false
   api:
