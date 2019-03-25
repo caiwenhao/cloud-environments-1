@@ -1,3 +1,13 @@
+heapster:
+  image:
+    repository: reg.lifesense.com/jenkinsxio/heapster
+    tag: v1.5.2
+  resizer:
+    enabled: true
+    image:
+      repository: reg.lifesense.com/jenkinsxio/addon-resizer
+      tag: 1.7
+
 JXBasicAuth: admin:$apr1$a/HdTrV7$XYCGJWF9PdVwVVTvjMyaU/
 extensions:
   enabled: true
